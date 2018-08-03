@@ -4,7 +4,7 @@
         <title><?= $title ?></title>
     </head>
     <body>
-    	<a href="./index.php" title="">All posts</a>
+    	<a href="./" title="">All posts</a>
         <?= $content ?>
     </body>
 </html>
