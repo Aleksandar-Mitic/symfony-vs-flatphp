@@ -8,6 +8,9 @@ use Symfony\Component\HttpFoundation\Response;
 $request = Request::createFromGlobals();
 
 $uri = $request->getPathInfo();
+
+var_dump($uri);
+
 if ('/' === $uri) {
     $response = list_action();
 } elseif ('/show' === $uri && $request->query->has('id')) {
