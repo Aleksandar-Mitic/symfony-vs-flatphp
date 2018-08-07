@@ -1,9 +1,14 @@
 {
     "require": {
         "symfony/http-foundation": "^4.0",
-        "symfony/routing": "^4.1"
+        "symfony/routing": "^4.1",
+        "symfony/yaml": "^4.1",
+        "symfony/config": "^4.1"
     },
     "autoload": {
         "files": ["model.php","controllers.php"]
+    },
+    "require-dev": {
+        "symfony/profiler-pack": "^1.0"
     }
 }
